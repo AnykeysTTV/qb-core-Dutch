@@ -1,0 +1,70 @@
+# FiveM Large Files
+
+# Ignore large log files
+logs/*.log
+logs/**/*.log
+
+# Ignore crash dumps
+crashes/*.dmp
+crashes/**/*.dmp
+
+# Ignore cache files
+cache/*.cache
+cache/**/*.cache
+cache/**
+
+# Ignore database backups
+db-backup/*.bak
+db-backup/**/*.bak
+
+# Ignore large resource files
+
+
+# Ignore large audio files
+resources/**/audio/**/*.awc
+resources/**/audio/**/*.rel
+
+
+
+resources/**/*.asi
+
+
+# Ignore large model files
+resources/**/*.mdl
+resources/**/*.wdr
+resources/**/*.wft
+resources/**/*.dff
+resources/**/*.txd
+resources/**/*.col
+
+
+
+# Ignore large archive files
+resources/**/*.zip
+resources/**/*.rar
+resources/**/*.7z
+
+# Ignore large executable files
+resources/**/*.exe
+resources/**/*.dll
+
+# Ignore large project files
+resources/**/*.vcproj
+resources/**/*.sln
+resources/**/*.csproj
+
+# Ignore large documentation files
+resources/**/*.pdf
+resources/**/*.doc
+resources/**/*.docx
+
+# Ignore large backup files
+resources/**/*.bak
+resources/**/*.old
+
+# Ignore other large files
+resources/**/*.*
+
+permissions.cfg
+private.cfg
+*.bkp
